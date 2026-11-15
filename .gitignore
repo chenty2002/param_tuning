@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+/verilog/*/
+/verilog/search_summary.json
+/verilog/*.log
+/verilog/*.pid

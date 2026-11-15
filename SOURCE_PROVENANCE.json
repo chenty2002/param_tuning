@@ -1,0 +1,42 @@
+{
+  "source_project": "chisel/coherence-param-tuning",
+  "git_metadata_removed": true,
+  "gitmodules_removed": true,
+  "repositories": {
+    ".": {
+      "revision": "101679af6106a2fbc64cf24057a01b8f50d6ab7e",
+      "status": " M Makefile\n m coupledL2\n M set_verify.py\n M src/main/scala/coupledL2AsL1/Input2Req.scala\n M src/test/scala/coupledL2Verification/AutoVerify.scala\n M src/test/scala/coupledL2Verification/VerifyTop.scala\n?? .github/\n?? VerifyTop_consist.sv\n?? param_tuning.md\n",
+      "diff_sha256": "ab35d08b0b03804b44a9277a2b5dbfb0a757655aac762217ba8d5176a193d5ab"
+    },
+    "coupledL2": {
+      "revision": "f6e0ce9cd54b8a0eba40a8dc82f7893b3db5800f",
+      "status": " m HuanCun\n M src/main/scala/coupledL2/CoupledL2.scala\n M src/main/scala/coupledL2/DataStorage.scala\n M src/main/scala/coupledL2/Directory.scala\n M src/main/scala/coupledL2/prefetch/Prefetcher.scala\n M src/main/scala/coupledL2/tl2tl/MainPipe.scala\n M src/main/scala/coupledL2/tl2tl/Slice.scala\n?? src/main/scala/coupledL2/DataStorageTest.scala\n?? src/main/scala/coupledL2/DirectoryTest.scala\n",
+      "diff_sha256": "b27e0d404015443f0cfaf5da5467c70e34e86c618ac417a836d4fd9e2d15f94e"
+    },
+    "coupledL2/HuanCun": {
+      "revision": "c5e02bd61625fd53ad2410999ff7d57a61234230",
+      "status": " M src/main/scala/huancun/DataStorage.scala\n M src/main/scala/huancun/HCCacheParameters.scala\n M src/main/scala/huancun/HuanCun.scala\n M src/main/scala/huancun/Slice.scala\n M src/main/scala/huancun/noninclusive/Directory.scala\n",
+      "diff_sha256": "d58b75af51f28162d44bd7f2e7468e8cfc5bc51b5496296bffba051f2a7b5286"
+    },
+    "coupledL2/rocket-chip": {
+      "revision": "90ae9a9314d444ade097fd5a471916869559b4fd",
+      "status": "",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "coupledL2/rocket-chip/cde": {
+      "revision": "52768c97a27b254c0cc0ac9401feb55b29e18c28",
+      "status": "",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "coupledL2/rocket-chip/hardfloat": {
+      "revision": "d93aa570806013dea479a92ba9bb33d1f2d4f69f",
+      "status": "",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "coupledL2/utility": {
+      "revision": "baacebea4bf173b2b676e99f5bb0f9abf10a5f48",
+      "status": "",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
